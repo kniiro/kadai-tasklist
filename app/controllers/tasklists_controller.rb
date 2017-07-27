@@ -24,6 +24,7 @@ class TasklistsController < ApplicationController
   end
   
   def edit
+    @tasklist = Tasklist.find(params[:id])
   end
   
   def update
