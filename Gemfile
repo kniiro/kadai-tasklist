@@ -63,4 +63,4 @@ gem 'hirb-unicode' # 日本語などマルチバイト文字の出力時の出�
 
  gem 'pry-rails'  # rails console(もしくは、rails c)でirbの代わりにpryを使われる
   gem 'pry-doc'    # methodを表示
-  gem 'pry-byebug' # デバッグを実施
+  gem 'pry-byebug', group: :development # デバッグを実施
